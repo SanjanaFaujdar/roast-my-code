@@ -292,13 +292,6 @@ function HomePage() {
     fontFamily: 'Inter, sans-serif',
   };
 
-  const loadingStyle = {
-    textAlign: 'center',
-    color: '#8b949e',
-    fontSize: '1.1rem',
-    fontWeight: '500',
-  };
-
   return (
     <div style={pageStyle}>
       <div style={heroStyle}>
