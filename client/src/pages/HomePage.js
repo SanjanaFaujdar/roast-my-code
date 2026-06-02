@@ -30,7 +30,7 @@ function HomePage() {
     setResult(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/roast', {
+const response = await axios.post('https://roast-my-code-mbfw.onrender.com/api/roast', {
         code,
         language,
         isPublic,
