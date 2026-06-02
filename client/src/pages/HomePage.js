@@ -141,12 +141,6 @@ function HomePage() {
     disabled: 'opacity 0.5 cursor-not-allowed',
   };
 
-  const buttonHoverStyle = {
-    ...buttonStyle,
-    transform: 'translateY(-2px)',
-    boxShadow: '0 12px 32px rgba(255, 107, 107, 0.4)',
-  };
-
   const checkboxContainerStyle = {
     display: 'flex',
     alignItems: 'center',
