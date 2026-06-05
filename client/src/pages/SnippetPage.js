@@ -11,7 +11,7 @@ function SnippetPage() {
   useEffect(() => {
     const fetchSnippet = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/snippet/${slug}`);
+        const response = await axios.get(`https://roast-my-code-mbfw.onrender.com/api/snippet/${slug}`);
         setSnippet(response.data);
       } catch (err) {
         setError(err.response?.data?.message || 'Snippet not found');

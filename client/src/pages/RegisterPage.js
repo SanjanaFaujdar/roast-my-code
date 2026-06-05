@@ -16,7 +16,7 @@ const RegisterPage = () => {
     setLoading(true);
     setError('');
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/register', { name, email, password });
+      const res = await axios.post('https://roast-my-code-mbfw.onrender.com/api/auth/register', { name, email, password });
       login(res.data.user, res.data.token);
       navigate('/');
     } catch (err) {
